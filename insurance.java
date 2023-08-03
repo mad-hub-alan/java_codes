@@ -24,7 +24,7 @@ public class insurance
 
             if ((sex=='M'||sex=='m') && age>=30)
             {
-                System.out.println("You are Married. So You are Eligible for Insurance");
+                System.out.println("Eligible for Insurance");
             }
             else if ((sex=='F'||sex=='f') && age>=25)
             {
@@ -37,7 +37,7 @@ public class insurance
         }
         else if (marital_status=='M')
         {
-            System.out.println("Eligible for Insurance");
+            System.out.println("You are Married. So You are Eligible for Insurance");
         }
         else
         {
