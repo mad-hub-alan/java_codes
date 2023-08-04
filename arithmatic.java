@@ -4,7 +4,7 @@ class arithmatic
 {
 	public static void main(String args[])
 	{
-		 int a=50,b=39;
+		 int a=50,b=25;
 		 System.out.println("Addition :"+(a+b));
 		 System.out.println("Subtraction :"+(a-b));
 		 System.out.println("Multiplication :"+(a*b));
