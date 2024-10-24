@@ -1,4 +1,4 @@
-package patterns.rigid;
+package patternPrograms.rigid;
 
 /*
   
