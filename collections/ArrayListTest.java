@@ -28,7 +28,7 @@ public class ArrayListTest
        Map<Integer, String> myMap = new HashMap<Integer, String>();
 
 
-        System.out.println(strList.equals(strSet));
+        System.err.println(strList.equals(strSet));
 
 
 
