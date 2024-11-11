@@ -27,6 +27,8 @@ public class StackTest {
         myStk.push("Minnale");
         myStk.push("AEM");
 
+        System.out.println("Search for \"Minnale\" : "+myStk.search("Minnale"));
+
         System.out.println("Loop starts");
 
         try{
@@ -62,5 +64,10 @@ public class StackTest {
 
 
         System.out.println("---End of the Program---");
+
+        Stack newStk  = new Stack();
+
+        System.out.println(newStk.peek());
+    
     }
 }
