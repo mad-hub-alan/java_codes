@@ -56,7 +56,7 @@ public class ListTest
         System.out.println(list.addAll(0,nameList));      
         System.out.println(list);  
 
-        nameList.clear();
+        //nameList.clear();
         System.out.println(list);
     }    
 }
