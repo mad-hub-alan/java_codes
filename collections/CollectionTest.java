@@ -1,7 +1,9 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
@@ -48,5 +50,15 @@ public class CollectionTest {
 
         for(Object i : arr)
             System.out.println(i);
+
+        System.out.println(vector.equals(li));
+
+        System.out.println(vector.containsAll(mySet));
+
+        Integer[] a1 = new Integer[10];
+        Arrays.fill(a1,100);
+
+        Collection<String> list = new ArrayList<>();
+        Collections.sort((ArrayList<String>) list);
     }
 }
