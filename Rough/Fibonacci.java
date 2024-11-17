@@ -1,4 +1,4 @@
-package recursion;
+package Rough;
 import java.util.Scanner;
 
 public class Fibonacci {
