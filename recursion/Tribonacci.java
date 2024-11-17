@@ -16,7 +16,7 @@ public class Tribonacci {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         scanner.close();
-        int result = new TribonacciBasic().tribonacci(n);
+        int result = new Tribonacci().tribonacci(n);
         System.out.println(result);
     }
 }
