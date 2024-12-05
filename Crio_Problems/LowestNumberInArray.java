@@ -1,3 +1,5 @@
+package crio_problems;
+
 public class LowestNumberInArray {
     static int smallestValueInArray(int[] numbers) {
 

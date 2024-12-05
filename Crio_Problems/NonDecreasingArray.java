@@ -1,3 +1,5 @@
+package crio_problems;
+
 public class NonDecreasingArray {
     static Boolean nonDecreasingArray(int[] arr) {
 

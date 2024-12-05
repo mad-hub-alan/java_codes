@@ -1,3 +1,5 @@
+package crio_problems;
+
 public class FindTargetInArray {
     public static int findElement(int N,int[] arr,int X){
         for(int i=0; i<N; i++){

@@ -1,3 +1,5 @@
+package Rough;
+
 /*
  * If employee is married then he/she is eligible for Insurance
  * If employee is unmarried (Male) and his age is 30 and above he is eligible for Insurance

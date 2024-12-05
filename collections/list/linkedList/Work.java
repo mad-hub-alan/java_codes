@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-import collections.list.linkedList.singlyLinkedList.Node;
-
 import java.util.*;
 
 class Node{

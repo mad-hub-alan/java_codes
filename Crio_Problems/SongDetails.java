@@ -1,3 +1,5 @@
+package crio_problems;
+
 public class SongDetails {
     String title;
     String artist;

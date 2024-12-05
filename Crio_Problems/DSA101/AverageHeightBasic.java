@@ -1,4 +1,4 @@
-package Crio_Problems.DSA101;
+package crio_problems.DSA101;
 
 import java.util.*;
 

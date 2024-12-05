@@ -1,3 +1,5 @@
+package crio_problems;
+
 import java.util.*;
 
 public class ProfitCalculation {
