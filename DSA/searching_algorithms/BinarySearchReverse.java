@@ -6,7 +6,7 @@ public class BinarySearchReverse {
         int left = 0;
         int right = n-1;
 
-        while(left <=right){
+        while(left <= right){
             int mid = (left+right)/2;
 
             if(a[mid] == X)
