@@ -1,4 +1,4 @@
-package Rough;
+package sorting_algorithms;
 import java.util.Arrays;
 
 class ABC {
