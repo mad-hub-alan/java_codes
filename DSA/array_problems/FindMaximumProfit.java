@@ -1,4 +1,4 @@
-package array_problems;
+package DSA.array_problems;
 
 public class FindMaximumProfit {
     

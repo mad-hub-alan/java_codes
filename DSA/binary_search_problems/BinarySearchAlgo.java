@@ -32,6 +32,8 @@ public class BinarySearchAlgo {
 
         Arrays.sort(arr);
 
+        System.out.println(Arrays.toString(arr));
+        
         if(binarySearch(arr,n,x)==-1){
             System.out.println(String.format("'%s' doesn't exist in the given Array !",x));
         }else{

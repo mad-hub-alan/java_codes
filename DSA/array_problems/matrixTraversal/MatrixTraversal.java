@@ -1,4 +1,4 @@
-package array_problems.matrixTraversal;
+package DSA.array_problems.matrixTraversal;
 
 public class MatrixTraversal {
     

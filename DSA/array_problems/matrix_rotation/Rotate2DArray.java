@@ -1,4 +1,4 @@
-package array_problems.matrix_rotation;
+package DSA.array_problems.matrix_rotation;
 import java.util.Scanner;
 
 public class Rotate2DArray {

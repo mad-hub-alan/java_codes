@@ -1,4 +1,4 @@
-package array_problems.matrixTraversal;
+package DSA.array_problems.matrixTraversal;
 
 import java.util.Scanner;
 
