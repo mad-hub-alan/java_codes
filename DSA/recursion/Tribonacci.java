@@ -1,22 +1,23 @@
-package recursion;
+package DSA.recursion;
 
 import java.util.*;
 
-class Factorial {
-    // NOTE: Please do not modify this function
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int result = factorial(n);
-
-        System.out.println(result);
-    }
-
-    // TODO: Implement this method
-    static int factorial(int n) {
+public class Tribonacci {
+    // Implement Your Solution here
+    int tribonacci(int n) {
         if(n==0 || n==1)
+            return n;
+        if(n==2)
             return 1;
-        return n * factorial(n-1);
+        int trib = tribonacci(n-1) + tribonacci(n-2) + tribonacci(n-3);
+        return trib;
+    }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.close();
+        int result = new Tribonacci().tribonacci(n);
+        System.out.println(result);
     }
 }
 

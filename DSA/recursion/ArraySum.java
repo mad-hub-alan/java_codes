@@ -1,4 +1,4 @@
-package recursion;
+package DSA.recursion;
 
 public class ArraySum {
 

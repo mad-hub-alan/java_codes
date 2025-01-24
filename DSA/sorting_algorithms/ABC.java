@@ -1,4 +1,4 @@
-package sorting_algorithms;
+package DSA.sorting_algorithms;
 import java.util.Arrays;
 
 class ABC {
